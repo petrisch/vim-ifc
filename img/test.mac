@@ -1,0 +1,18 @@
+REM This is a Test File
+
+START MyHiCAD Makro
+
+IF ThisOrthat THEN
+    DoSomething
+IFEND
+
+CALL SomethingElse
+
+POINT xyz
+
+OPEN SomeFile
+
+TODO
+$STRINGVARIABLE
+%NumericalVariable
+
