@@ -32,12 +32,14 @@ syn match ifcNumber '\d[[:digit:]]*\.\d*[eE][\-+]\=\d\+' contained display
 
 syn region ifcBracket start='(' end=')' fold transparent contains=ifcNumber,ifcString,ifcEnum,ifcGID
 
+" Simple c like multicomment
+syn region  ifcComment  start="/\*" end="\*/"
+
 hi def link ifcNumber  Special
 hi def link ifcKeyword Statement
 hi def link ifcString  String
-hi def link ifcGID     Comment
+hi def link ifcGID     Label
 hi def link ifcEnum    Type
+hi def link ifcComment Comment
 
 let b:current_syntax = "ifc"
-
-" vim: ts=8

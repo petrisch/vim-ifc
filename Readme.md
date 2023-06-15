@@ -3,6 +3,7 @@
 A Vim plugin with syntax highlighting for the Industry foundation classes IFC format.
 
 ![Highlight](/img/highlighting.png)
+
 Example in neovim with a dracula theme.
 
 ## Tribute
