@@ -1,7 +1,5 @@
 " ftplugin/ifc.vim
-" Sets the comment string to be REM
-setlocal comments=s0:/*!,m:\ ,ex:*/,s1:/*,mb:*,ex:*/,:///,://!,://
-setlocal commentstring=//%s
+setlocal comments=sr:/*,mb:*,ex:*/
 " Makes these a non word character
 setlocal iskeyword+=$-$,%-%,#,@-@
 setlocal tabstop=2
